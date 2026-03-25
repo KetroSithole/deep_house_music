@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep House Producer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #000000, #111827);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #9ca3af;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      background: #1f2937;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #374151;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .tracks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DJ YOUR NAME</h1>
+    <p>Deep House Producer • Vibe Creator</p>
+    <button class="btn">Listen Now</button>
+  </header>
+
+  <section>
+    <h2 class="section-title">My Tracks</h2>
+    <div class="tracks">
+      <div class="card">
+        <h3>Track One</h3>
+        <p>Smooth deep house vibes.</p>
+      </div>
+      <div class="card">
+        <h3>Track Two</h3>
+        <p>Late night groove energy.</p>
+      </div>
+      <div class="card">
+        <h3>Track Three</h3>
+        <p>Underground club feel.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p style="text-align:center; max-width:600px; margin:auto; color:#9ca3af;">
+      I am a deep house music producer creating soulful, atmospheric and rhythmic sounds designed for clubs, lounges, and late night sessions.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Connect</h2>
+    <div class="socials" style="text-align:center;">
+      <a href="#">Instagram</a>
+      <a href="#">SoundCloud</a>
+      <a href="#">YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 DJ YOUR NAME</p>
+  </footer>
+
+</body>
+</html>
